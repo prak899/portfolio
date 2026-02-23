@@ -41,14 +41,14 @@ UI/UX
   projects: `
 Mor Bijli App
 Health Scheme System
-Terminal Portfolio
+Godhan Nyay Yojana
 
 GitHub: https://github.com/yourusername
   `,
   contact: `
-Email: you@email.com
-Instagram: @yourhandle
-LinkedIn: linkedin.com/in/yourname
+Email: majhi9442@email.com
+Instagram: @nameismajhi
+LinkedIn: linkedin.com/in/Prakash-Majhi
   `
 };
 
