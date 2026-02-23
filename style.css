@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: #0b0f10;
+  color: #00ff9c;
+  font-family: "Courier New", monospace;
+  height: 100vh;
+}
+
+.terminal {
+  padding: 25px;
+  max-width: 900px;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+}
+
+.prompt {
+  margin-right: 8px;
+}
+
+input {
+  background: transparent;
+  border: none;
+  color: #00ff9c;
+  outline: none;
+  font-family: inherit;
+  font-size: 16px;
+  width: 100%;
+  caret-color: #00ff9c;
+}
+
+#output, #boot {
+  white-space: pre-line;
+}
+
+a {
+  color: #00d4ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cursor::after {
+  content: "█";
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
