@@ -3,10 +3,10 @@ const output = document.getElementById("output");
 const input = document.getElementById("commandInput");
 
 const bootLines = [
-  "Booting BravoOS v1.0...",
+  "Booting BravoOS v1.101...",
   "Loading modules...",
   "Initializing portfolio engine...",
-  "Welcome."
+  "Welcome quest."
 ];
 
 const ascii = `
